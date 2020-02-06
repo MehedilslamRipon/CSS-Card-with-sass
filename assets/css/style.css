@@ -1,0 +1,96 @@
+.center, .card--amount, .card--info h2 {
+  text-align: center;
+}
+
+.bold, .card--content-ul, .card--info-para, button {
+  font-weight: bold;
+}
+
+.gray, .card--content-ul, .card--info-para {
+  color: #676767;
+}
+
+button {
+  color: #3498DB;
+  background-color: white;
+  border: 2px solid #3498DB;
+  height: 53px;
+  width: 212px;
+  border-radius: 55px;
+  margin-left: 42px;
+  margin-top: -5px;
+  transition: 0.2s all ease;
+}
+button:hover {
+  color: white;
+  background-color: #3498DB;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card--info {
+  height: 500px;
+  width: 300px;
+  background-color: #8DDAE7;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.card--info-title {
+  padding: 1px 23px;
+}
+.card--info h2 {
+  color: #B7B7B7;
+}
+.card--info-para p {
+  text-align: justify;
+}
+
+.card--amount h1 {
+  color: #3498DB;
+}
+.card--amount span {
+  color: #B7B7B7;
+}
+
+.card--content-ul ul {
+  list-style-type: none;
+}
+.card--content-ul li {
+  padding: 5px 5px;
+}
+
+button {
+  color: #3498DB;
+  background-color: white;
+  border: 2px solid #3498DB;
+  height: 53px;
+  width: 212px;
+  border-radius: 55px;
+  margin-left: 42px;
+  margin-top: -5px;
+  transition: 0.2s all ease;
+}
+button:hover {
+  color: white;
+  background-color: #3498DB;
+}
+
+button {
+  color: #3498DB;
+  background-color: white;
+  border: 2px solid #3498DB;
+  height: 53px;
+  width: 212px;
+  border-radius: 55px;
+  margin-left: 42px;
+  margin-top: -5px;
+  transition: 0.2s all ease;
+}
+button:hover {
+  color: white;
+  background-color: #3498DB;
+}
+
+/*# sourceMappingURL=style.css.map */

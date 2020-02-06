@@ -1,0 +1,65 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+        &--info{
+        height: 500px;
+        width: 300px;
+        background-color: #8DDAE7;
+        margin: 0 auto;
+        border-radius: 6px;
+
+        &-title{
+            padding: 1px 23px;
+        } 
+        h2{
+            @extend .center;
+            color: #B7B7B7;   
+        }
+        &-para{
+            @extend .bold;
+            @extend .gray;
+            p {
+                text-align: justify;
+                
+            }
+        }
+    }
+}
+.card--amount{
+    @extend .center;
+    h1{
+        color: #3498DB;
+    }
+    span{
+        color: #B7B7B7;
+    }
+}
+.card--content{
+    &-ul{
+        @extend .bold;
+        @extend .gray;
+        ul{
+            list-style-type: none;
+        }
+        li{
+            padding: 5px 5px;
+        }
+    }
+}
+button{
+    @extend .bold;
+    color: #3498DB;
+    background-color: white;
+    border: 2px solid #3498DB;
+    height: 53px;
+    width: 212px;
+    border-radius: 55px;
+    margin-left: 42px;
+    margin-top: -5px;
+    transition: 0.2s all ease;
+    &:hover{
+        color: white;
+        background-color: #3498DB;
+    }
+}
